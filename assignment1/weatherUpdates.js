@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
                          weather, weatherDescription) {
     weatherDiv.innerHTML = `
               <img class="city-image" 
-              src="../assets/cities/${location.imageName}" 
+              src="./assets/cities/${location.imageName}" 
               alt="${location.name}">
               <div class="weather-header">
                   <img class="country-flag" 
