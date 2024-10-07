@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: #1f2936;
+    color: white;
+    padding: 2em;
+    border-bottom: 0.15em solid #273442;
+}
+
+.header-logo {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 1em;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: #1f2936;
+}
+
+footer p {
+    color: white;
+}
+
+.dynamic-content-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 10em;
+}
+
+.posts-container h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.info {
+    padding: 2em;
+    background-color: white;
+}
+
+.info h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: black;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    padding: 4em 0 0 0;
+}
+
+.info-item {
+    flex: 1;
+    padding: 1em;
+    border-radius: 0.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2em;
+}
+
+.info-item p {
+    font-size: 2em;
+    color: black;
+    text-align: justify;
+    padding: 0.5em 0 0 0;
+}
+
+.info-placeholder {
+    padding: 5em 9em;
+    border: 0.4em solid #3782f5;
+    border-radius: 0.8em;
+}
