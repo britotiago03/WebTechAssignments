@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: #1f2936;
+    color: white;
+    padding: 2em;
+    border-bottom: 0.15em solid #273442;
+}
+
+.header-logo {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 1em;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #1f2936;
+    color: white;
+    padding: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7em;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.hero-text p {
+    font-size: 1.25em;
+    padding: 1.5em 0;
+}
+
+.hero-button {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em 1.8em;
+    border: none;
+    border-radius: 0.8em;
+    font-size: 1em;
+    outline: none;
+}
+
+.hero-button:hover {
+    cursor: pointer;
+    background-color: #0060f3;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image p {
+    padding: 7.5em;
+    background-color: #6d737d;
+}
+
+.info {
+    padding: 2em;
+    background-color: white;
+}
+
+.info h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: black;
+}
+
+.info-item {
+    display: flex;
+    padding: 4em 0 0 0;
+    justify-content: center;
+    gap: 2em;
+}
+
+.info-item p {
+    font-size: 1.25em;
+    color: black;
+    text-align: justify;
+    padding: 0.5em 0 0 0;
+}
+
+.info-placeholder {
+    padding: 5em 9em;
+    border: 0.4em solid #3782f5;
+    border-radius: 0.8em;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    background-color: #e4e5eb;
+    padding: 6em;
+}
+
+.testimonial-container p {
+    font-size: 2em;
+    font-style: italic;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: left;
+}
+
+.testimonial-container h3 {
+    display: flex;
+    justify-content: right;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: black;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 4em;
+    background-color: white;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3782f5;
+    padding: 2em 6em;
+    gap: 6em;
+    border-radius: 1em;
+}
+
+.cta-container h1 {
+    font-size: 1.5em;
+    color: white;
+}
+
+.cta-container p {
+    font-size: 1.5em;
+    color: white;
+}
+
+.cta-container button {
+    border: 0.2em solid white;
+    border-radius: 0.5em;
+    outline: none;
+    color: white;
+    background-color: #3782f5;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0 2em 0 2em;
+    height: 2.3em;
+}
+
+.cta-container button:hover {
+    cursor: pointer;
+    background-color: #0060f3;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: #1f2936;
+}
+
+footer p {
+    color: white;
+}
